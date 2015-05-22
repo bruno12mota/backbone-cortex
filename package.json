@@ -2,7 +2,7 @@
   "name": "backbone-cortex",
   "version": "0.1.13",
   "description": "An Express-like route handler for Backbone",
-  "main": "index.js",
+  "main": "client/cortex.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
