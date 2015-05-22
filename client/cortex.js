@@ -45,4 +45,4 @@ export default class Cortex {
 	}
 }
 
-Cortex.prototype = Object.create(Backbone.Events);
+_.merge(Cortex.prototype, Backbone.Events);
