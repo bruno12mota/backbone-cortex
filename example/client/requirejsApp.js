@@ -1,1 +1,0 @@
-var Cortex = require('./cortex');
