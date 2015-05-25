@@ -22,6 +22,8 @@ var _lodash = require('lodash');
 
 var _lodash2 = _interopRequireDefault(_lodash);
 
+var merge = _lodash2['default'].merge;
+
 var Cortex = (function () {
 	function Cortex() {
 		_classCallCheck(this, Cortex);
@@ -77,5 +79,5 @@ var Cortex = (function () {
 
 exports['default'] = Cortex;
 
-Cortex.prototype = Object.create(_backbone2['default'].Events);
+merge(Cortex.prototype, _backbone2['default'].Events);
 module.exports = exports['default'];

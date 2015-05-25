@@ -2,6 +2,8 @@ import Backbone from 'backbone';
 import Route from './route';
 import _ from 'lodash';
 
+var merge = _.merge;
+
 export default class Cortex {
 	constructor () {
 		this.middlewares = [];
@@ -45,4 +47,4 @@ export default class Cortex {
 	}
 }
 
-_.merge(Cortex.prototype, Backbone.Events);
+merge(Cortex.prototype, Backbone.Events);
